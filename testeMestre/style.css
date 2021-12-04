@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family = Klee + One: wght @ 400; 600 & family = Satisfy & display = swap');
+h1{
+    display: inline;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: 'Klee One';
+    padding-left:  10px;
+    padding-top: 0px;
+    
+}img{
+    width: 100px;
+    height: 100px;
+   
+}header{
+    margin: auto;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(to right ,#2B2B2B,black);
+}
+p{
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+}
+button{
+   background: black;
+   text-align: center;
+   position: relative;
+   color: white;
+   margin: 0 auto;
+   border-style: solid;
+   border-color: white;
+   height: 100px;
+   width: 180px;
+   margin-right:100px;
+   margin-left: 26px;
+   margin-top: 50px;
+  
+}
+div{
+    text-align: center;
+    margin-top: 100px;
+}
+button:hover{
+    background-color:rgb(92, 92, 92);
+}
+#d1{
+    margin:auto;
+}

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+:root{
+    --cor1:#8EEAED;
+    --cor2:#83B4F7;
+    --cor3:#9C92E0;
+    --cor4:#CA64F7;
+    --cor5:#b338e7;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+body{
+    background-color: var(--cor1);
+}
+header{
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor3));
+    margin-top: 10px;
+    padding-top: 30px;
+    text-align: center;
+    min-height: 100px;
+    border-radius: 10px;
+    
+}
+header>h1{
+    padding-bottom: 5px;
+    font-family: 'Indie Flower', cursive;
+}
+    header>p{
+    padding: 5px;
+    font-weight: bolder;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3em;
+}
+main{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    margin: auto;
+    min-width: 400px;
+    max-width: 1100px;
+    border-radius: 5px;
+}
+main h2{
+    display: inline-block;
+    text-indent: 2px;
+    color: var(--cor3);
+    background-image: linear-gradient(to left,transparent,var(--cor1));
+}
+main p{
+    line-height: 2em;
+    text-align: justify;
+}
+h2.destaque{
+    background-image: linear-gradient(to right,var(--cor1),var(--cor1));
+    color: var(--cor5);
+    font-weight: 900;
+}

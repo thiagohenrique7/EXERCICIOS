@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Android' ;
+    src: url('fontes/idroid.otf')
+    format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    
+    background-color: rgba(161, 240, 161, 0.822);
+}
+header{
+background-image: linear-gradient(rgb(59, 245, 59),rgb(2, 163, 2));
+padding: 2px;
+}
+h1{
+    font-family: 'Bebas Neue';
+    font-weight: lighter;
+    text-align: center;
+}
+header>p{
+    text-align: center;
+}
+nav>p{
+    text-align: left;
+    
+}
+p>a{
+    color: black;
+    text-decoration: unset;
+
+}
+
+main{
+    padding: 5px;
+    background-color: white;
+    width: 820px;
+    height: auto;
+    margin: auto;
+}
+
+h2,h3,h4{
+    font-family: 'Android';
+    color: green;
+}
+div{
+    text-align: center;
+    margin: auto;
+}
+aside{
+    background-color: rgba(2, 231, 2, 0.349);
+
+}footer{
+    text-align: center;
+    background-color: green;
+}
